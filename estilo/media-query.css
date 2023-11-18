@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/*Todas as demaiais midias*/
+
+/*typical Device Breakpoints
+--------------------------------Recomendações do W3C mas podem mudar com o tempo ------------
+Pequenas telas: até 600px
+Celular: de 600 px até 768px
+Tablet: 768px até 992px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    body{
+        background-image: linear-gradient(to top, #49a00d,#5f2c82);
+    }
+    main{
+        width: 90%;
+        height: 52%;
+        transition:  width 0.3s,heigth 0.3s;
+    }
+    #imagem{
+        float: right;
+        height: 100%;
+        width: 40%;
+        
+    }
+
+
+
+    form{
+        width: 60%;
+        float: left;
+        margin-top: 20px;
+        
+    }
+    
+    .mail-top{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .mail{
+        margin-bottom: 10px;
+        
+    }
+
+    #iemail{
+        width: 90%;
+    }
+
+    #isenha{
+        width: 90%;
+    }
+
+
+
+    .botao{
+        width: 100%px;
+        margin: 0px;
+    }
+    
+    
+}
+
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to top, #49a00d,#5f2c82);
+    }
+    main{
+        width: 992px;
+        transition: width 0.3s, heigth 0.3s;
+    }
+    h1{
+        font-size: 2em;
+    }
+
+    .s{
+        font-size: 20px;
+    }
+    #imagem{
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+
+    section{
+        margin-top: 60px;
+        float: right;
+        width: 50%;
+    }
+
+    form{
+        margin-top: 10px;
+    }
+
+    .mail-top{
+        margin-bottom: 15px;
+    }
+
+    .mail{
+        margin-bottom: 15px;
+    }
+
+
+    #iemail{
+        width: 91%;
+    }
+
+    #isenha{
+        width: 91%;
+    }
+
+    .botao{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .botao2{
+        font-size: 20px;
+    }
+
+
+    
+}
