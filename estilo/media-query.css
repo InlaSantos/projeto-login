@@ -36,31 +36,6 @@ Grandes telas: acima de 1200px
         
     }
     
-    .mail-top{
-        margin-bottom: 10px;
-        width: 100%;
-    }
-
-    .mail{
-        margin-bottom: 10px;
-        
-    }
-
-    #iemail{
-        width: 90%;
-    }
-
-    #isenha{
-        width: 90%;
-    }
-
-
-
-    .botao{
-        width: 100%px;
-        margin: 0px;
-    }
-    
     
 }
 
@@ -94,33 +69,4 @@ Grandes telas: acima de 1200px
     form{
         margin-top: 10px;
     }
-
-    .mail-top{
-        margin-bottom: 15px;
-    }
-
-    .mail{
-        margin-bottom: 15px;
-    }
-
-
-    #iemail{
-        width: 91%;
-    }
-
-    #isenha{
-        width: 91%;
-    }
-
-    .botao{
-        margin-bottom: 15px;
-        font-size: 20px;
-    }
-
-    .botao2{
-        font-size: 20px;
-    }
-
-
-    
 }

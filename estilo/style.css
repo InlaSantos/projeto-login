@@ -65,47 +65,67 @@ form{
     padding-left: 10px;
 }
 
-
 .mail-top{
+    display: block;
     background-color: rgb(54, 2, 88);
-    padding: 3px;
+    width: 100%;
     border-radius: 5px;
-    margin-bottom: 5px;
+    height: 40px;
+    border: 0px;
+    margin: 5px 0px;
+    padding-right: 5px;
     
 }
 
-.mail{
-    background-color: rgb(54, 2, 88);
-    padding: 3px;
-    border-radius: 5px;
+label{
+    float: right;
+    display: none;
 }
 
-#iemail{
-    width: 85%;
+.mail-top > #iemail{
+    float: right;
+    width: calc(100% - 40px);
+    height: 35px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #49a09d;
+    transform: translateY(2px);
+    
+    
 }
-
-#iemail:focus-within{
-    background-color: white;
-}
-
-span{
+#people{
+    font-size: 2em;
     color: white;
-    padding: 5px;
-    size: 40px;
+    width: 40px;
+    padding: 4px;
+    margin: 0px;
 }
 
-#isenha{
-    width: 85%;
+.mail{
+    display: block;
+    background-color: rgb(54, 2, 88);
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: 0px;
+    margin: 5px 0px;
+    padding-right: 5px;
+}
+
+.mail > #isenha{
+    float: right;
+    width: calc(100% - 40px);
+    height: 35px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #49a09d;
+    transform: translateY(2px);
 }
 
-#isenha:focus-within{
-    background-color: white;
+#key{
+    font-size: 2em;
+    color: white;
+    width: 40px;
+    padding: 4px;
+    margin: 0px;
 }
 
 .botao{
@@ -140,7 +160,12 @@ span{
 #figura{
     font-size: 20px;
     color: #3c7c7a;
+    color: white;
+    padding: 5px;
+    size: 40px;
+    
 }
+
 
 .botao2:hover{
     background-color: #3c7c7a;
