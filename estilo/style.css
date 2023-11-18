@@ -89,8 +89,13 @@ label{
     padding: 10px;
     border-radius: 5px;
     transform: translateY(2px);
+    background-color: #6cd3cf;
     
     
+}
+
+#iemail:focus-within{
+    background-color: white;
 }
 #people{
     font-size: 2em;
@@ -118,6 +123,11 @@ label{
     padding: 10px;
     border-radius: 5px;
     transform: translateY(2px);
+    background-color: #6cd3cf
+}
+
+#isenha:focus-within{
+    background-color: white;
 }
 
 #key{
